@@ -5,12 +5,13 @@ import styled from "styled-components";
 const ItemWrap = styled.div`
   display: flex;
   align-items: center;
-  width: 50%;
+  max-width: 500px;
   margin: auto;
 `;
 const Item = styled.span`
   margin-right: 10px;
   color: #fff;
+  width: 100px;
 `;
 
 const WeatherItem = (props: any) => {
@@ -34,7 +35,7 @@ const WeatherItem = (props: any) => {
     <ItemWrap>
       <Item>{data.name}</Item>
       <Item>{data.weather[0].main}</Item>
-      <Item>tmp : {data.main.temp}°C</Item>
+      <Item>Tmp : {data.main.temp}°C</Item>
       <Item>Humidity : {data.main.humidity}%</Item>
       <img
         src={`${process.env.REACT_APP_OW_ICON_URL}/${data.weather[0].icon}.png`}
