@@ -2,7 +2,7 @@ export const pref = [
   {
     code: 1,
     name: "北海道",
-    en: "Hokkaidô",
+    en: "Hokkaido",
   },
   {
     code: 2,
@@ -32,7 +32,7 @@ export const pref = [
   {
     code: 7,
     name: "福島県",
-    en: "Hukusima",
+    en: "Fukushima",
   },
   {
     code: 8,
@@ -42,7 +42,7 @@ export const pref = [
   {
     code: 9,
     name: "栃木県",
-    en: "Totigi",
+    en: "Tochigi",
   },
   {
     code: 10,
@@ -57,12 +57,12 @@ export const pref = [
   {
     code: 12,
     name: "千葉県",
-    en: "Tiba",
+    en: "chiba",
   },
   {
     code: 13,
     name: "東京都",
-    en: "Tôkyô",
+    en: "Tokyo",
   },
   {
     code: 14,
@@ -82,17 +82,17 @@ export const pref = [
   {
     code: 17,
     name: "石川県",
-    en: "Isikawa",
+    en: "Ishikawa",
   },
   {
     code: 18,
     name: "福井県",
-    en: "Hukui",
+    en: "Fukui",
   },
   {
     code: 19,
     name: "山梨県",
-    en: "Yamanasi",
+    en: "Yamanashi",
   },
   {
     code: 20,
@@ -102,17 +102,17 @@ export const pref = [
   {
     code: 21,
     name: "岐阜県",
-    en: "Gihu",
+    en: "GiFu",
   },
   {
     code: 22,
     name: "静岡県",
-    en: "Sizuoka",
+    en: "shizuoka",
   },
   {
     code: 23,
     name: "愛知県",
-    en: "Aiti",
+    en: "Aichi",
   },
   {
     code: 24,
@@ -122,22 +122,22 @@ export const pref = [
   {
     code: 25,
     name: "滋賀県",
-    en: "Siga",
+    en: "shiga",
   },
   {
     code: 26,
     name: "京都府",
-    en: "Kyôto",
+    en: "Kyoto",
   },
   {
     code: 27,
     name: "大阪府",
-    en: "Ôsaka",
+    en: "osaka",
   },
   {
     code: 28,
     name: "兵庫県",
-    en: "Hyôgo",
+    en: "Hyogo",
   },
   {
     code: 29,
@@ -157,7 +157,7 @@ export const pref = [
   {
     code: 32,
     name: "島根県",
-    en: "Simane",
+    en: "shimane",
   },
   {
     code: 33,
@@ -167,17 +167,17 @@ export const pref = [
   {
     code: 34,
     name: "広島県",
-    en: "Hirosima",
+    en: "Hiroshima",
   },
   {
     code: 35,
     name: "山口県",
-    en: "Yamaguti",
+    en: "Yamaguchi",
   },
   {
     code: 36,
     name: "徳島県",
-    en: "Tokusima",
+    en: "Tokushima",
   },
   {
     code: 37,
@@ -192,12 +192,12 @@ export const pref = [
   {
     code: 39,
     name: "高知県",
-    en: "Kôti",
+    en: "Kochi",
   },
   {
     code: 40,
     name: "福岡県",
-    en: "Hukuoka",
+    en: "Fukuoka",
   },
   {
     code: 41,
@@ -217,7 +217,7 @@ export const pref = [
   {
     code: 44,
     name: "大分県",
-    en: "Ôita",
+    en: "oita",
   },
   {
     code: 45,
@@ -227,7 +227,7 @@ export const pref = [
   {
     code: 46,
     name: "鹿児島県",
-    en: "Kagosima",
+    en: "Kagoshima",
   },
   {
     code: 47,
