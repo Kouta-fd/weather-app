@@ -6,7 +6,7 @@ import { ClockNum } from '../../interface/clockNum'
 const SClockText = styled.div`
     font-size: 50px;
     color: #ffffff;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     margin-bottom: 50px;
   `;

@@ -5,13 +5,43 @@ import styled from "styled-components";
 const ItemWrap = styled.div`
   display: flex;
   align-items: center;
-  max-width: 500px;
   margin: auto;
 `;
-const Item = styled.span`
-  margin-right: 10px;
-  color: #fff;
-  width: 100px;
+
+const ItemRed = styled.span`
+  color: red;
+`;
+
+const ItemGreen = styled.span`
+  color: green;
+`;
+
+const Rain = styled.span`
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: blue;
+`;
+
+const Cloud = styled.span`
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: gray;
+`;
+
+const Sun = styled.span`
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: red;
+`;
+
+const Green = styled.span`
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: green;
 `;
 
 const WeatherItem = (props: any) => {
@@ -33,14 +63,34 @@ const WeatherItem = (props: any) => {
 
   return (
     <ItemWrap>
-      <Item>{data.name}</Item>
-      <Item>{data.weather[0].main}</Item>
-      <Item>Tmp : {data.main.temp}°C</Item>
-      <Item>Humidity : {data.main.humidity}%</Item>
-      <img
+      {/* <Item>{data.name}</Item> */}
+
+      {data.weather[0].main == "Rain" ? (
+        data.weather[0].main == "Cloud" ? (
+          <Sun></Sun>
+        ) : (
+          <Rain></Rain>
+        )
+      ) : (
+        <Cloud></Cloud>
+      )}
+
+      {data.main.temp > 20 ? (
+        data.main.temp > 30 ? (
+          <Sun></Sun>
+        ) : (
+          <Green></Green>
+        )
+      ) : (
+        <Rain></Rain>
+      )}
+      {/* °C */}
+
+      {/* <Item>Humidity : {data.main.humidity}%</Item> */}
+      {/* <img
         src={`${process.env.REACT_APP_OW_ICON_URL}/${data.weather[0].icon}.png`}
         alt={data.weather[0].description}
-      />
+      /> */}
     </ItemWrap>
   );
 };
